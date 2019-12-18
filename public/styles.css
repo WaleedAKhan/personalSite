@@ -1,0 +1,25 @@
+body {
+
+}
+
+
+.section {
+  padding-top: 10px;
+
+}
+
+
+.section-grey {
+  padding-top: 10px;
+  border-radius:20px;
+
+
+  background-color: #f3f3f380;
+}
+
+
+.headings{
+  text-decoration: underline;
+  text-align:center;
+  padding-bottom:15px;
+}

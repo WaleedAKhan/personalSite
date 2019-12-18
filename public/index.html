@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='myCV'>
+<head>
+  <title>Waleed K </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content ="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel = "stylesheet" href="/spacelab_bs.css">
+  <link rel = "stylesheet" href="/font-awesome.min.css">
+
+
+  <script src="/js/jquery.min.js"></script>
+    <script src="/mycv.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+
+</head>
+<body style = "padding-top: 70px;">
+
+ <nav  class = 'navbar navbar-default navbar-fixed-top'>
+   <div class ='container-fluid'>
+     <div class = 'navbar-header'>
+       <button type='button' class='pull-left navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+
+     </div>
+     <div class="collapse navbar-collapse" id='myNavbar'>
+       <ul class = 'nav navbar-nav'>
+         <li><a  href='#about'>About Me </a></li>
+          <li><a  href='#education'>Education/Technical Skills</a></li>
+         <li><a  href="#work">Work</a></li>
+         <li><a  href='#projects'>Projects</a></li>
+         <li><a  href='#contact'>Contact</a></li>
+       </ul>
+     </div>
+ </nav>
+
+
+<div class="container" style="margin-bottom:100px; width:1400px; max-width:100%;">
+
+
+
+
+  <div class="jumbotron jumbotron-fluid">
+    <a id="about"></a>
+  <div >
+  <h3>Hi!<small class="text-muted"> Thanks for stopping by. My name is Waleed, and I am a recent
+  Computer Science graduate from the University Of Toronto.
+    I hope this site gives you an idea about some of my interests in the feild,
+    my skills and a look into some of my past work experience.</small></h3>
+
+
+  </div>
+
+  <!--
+  <ul class="pager">
+    <li class="previous">
+      <a ng-controller='touchCtrl' ng-click="test()" ui-sref='educationState'><<<</a></li>
+    <li class="next"><a ui-sref='workState'>>>></a></li>
+  </ul>-->
+  </div>
+
+  <div class='container-fluid section'>
+  <a id="education"></a>
+  <h3 class ="headings" align="left">Education</h3>
+  <div class='row'>
+    <div class='col-md-2'>
+      <img src="/img/UTM.jpg" class="img-responsive img-rounded" >
+    </div>
+    <div class='col-md-5'>
+      <h4>Honors Bachelor of Science (BSc.)</h4>
+      <p>
+      Computer Science (Specialist: Information Security) & Math (Major) - 2013-2017</p>
+      <p>
+      University of Toronto, Mississauga</p>
+      CGPA: 3.6/4
+      </p>
+      <p>My time here taught me the skill of self-learning and gave me a better
+      understanding of time management. A specialization in
+    information security further opened me to the issues of digital security
+  and an awareness of the issue whenever I am writing my own applications. An
+  additional Math Major also helped me better appreciate the theoretical side
+  of Computer Science.
+ </p>
+    </div>
+  </div>
+  <div class='row'>
+    <h4 style="text-decoration: underline;">Technical Skills</h4>
+
+    <div class='col-md-2'>
+      <h5>Application Software</h5>
+    </div>
+    <div class='col-md-5'>
+      <p>MS Office Suite – (Word, Excel, PowerPoint, Access, Project,Visio),
+  Quartus, SAP(Logistics), Unity
+  </p>
+  </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-md-2'>
+  <h5>Languages</h5>
+  </div>
+  <div class='col-md-5'>
+  <p>C, Java, Python, Assembly, Verilog, SQL, VBA
+    <p>Web: Java (Spring Framework), HTML, CSS, PHP, Javascript (jQuery, Node, Angular 1),
+      Bootstrap
+   </p>
+  </p>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-md-2'>
+  <h5>Other</h5>
+  </div>
+  <div class='col-md-5'>
+  <p>GIT, SVN, LaTeX, VIM
+  </p>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-md-2'>
+  <h5>Indepently Learning</h5>
+  </div>
+  <div class='col-md-5'>
+  <p>Android, Hadoop Framework
+  </p>
+    </div>
+  </div>
+
+
+  </div>
+
+  <!--
+    <ul class="pager">
+      <li class="previous"><a ui-sref='projectState'><<<</a></li>
+      <li class="next"><a ui-sref='aboutState'>>>></a></li>
+    </ul>-->
+
+
+
+  <!--Work Section-->
+  <div class='container-fluid section-grey'>
+  <!--
+  <h3 class="display-2" ><em><u>Work Experience</u></em></h3>
+  -->
+  <a id="work"></a>
+  <h3 class ="headings" align="left">Work</h3>
+  <div class='row'>
+    <div class='col-md-2'>
+      <img src="/img/cihi.png" class="img-responsive img-rounded" >
+    </div>
+    <div class='col-md-6'>
+      <h4>Software Engineer, Canadian Institute for Health Information (June 2017 - Present)</h4>
+      <p>  Software Developer in the Product Delivery team. Responsible for maintaining front and back-end components 
+	  for a suite of Java based web applications. Responsibilities include overlooking operational 
+	  work which involves loading ETL data loading processes,product development and enhancements scheduled
+	  for the fiscal year.</p>
+<p>
+        Main technologies used in this role:
+        <ul>
+        <li> Spring Framework </li>
+        <li> Oracle SQL </li>
+        </ul>
+        </p>
+        
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-2'>
+      <img src="/img/Scotia.jpg" class="img-responsive img-rounded" >
+    </div>
+    <div class='col-md-6'>
+      <h4>Summer Intern, Fixed Income Team (July-September 2016)</h4>
+      <p> Worked with the Fixed Income team to help set up a test environment for
+        data being used in Tableau. My work mainly involved pulling data from a MYSQL
+        server, and setting up an environment in which variables could be tested for
+        quickly and with little knowledge of the backend workings. This exercise was
+        part of a larger project being work on at the time, whose ultimate goal was
+        to allow for better counter-party management.</p>
+
+        <p>
+        Main technologies used in this role:
+        <ul>
+        <li> MYSQL </li>
+        <li> Python </li>
+        <li> VBA Scripting for Excel</li>
+      </ul>
+        </p>
+
+    </div>
+  </div>
+    <div class='row'>
+      <div class='col-md-2'>
+        <img src="/img/Scotia.jpg" class="img-responsive img-rounded" >
+      </div>
+      <div class='col-md-6'>
+        <h4>Summer Intern, Trade Floor Support (June-August 2015)</h4>
+        <p> This role dealt with technical support for Scotia's main trade floor,
+          and called for a broad understanding of all the technologies being used in
+          that environment, both software and hardware.
+          This role helped refine my problem solving
+          and trouble shooting skills and gave me a good taste of what it meant to
+           work in a time constrained environment.
+        </p>
+
+      </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-2'>
+      <img src="/img/UTM.jpg" class="img-responsive img-rounded" >
+    </div>
+    <div class='col-md-6'>
+      <h4>Lab Teaching Assistant (September-December 2016)</h4>
+      <p> During my last year in Undergraduate I was lucky enough to get an opportunity to be
+        a Lab Teaching Assistant. I was responsible for running a lab section for
+        CSCC108, Introduction to Computer Programming. This role allowed me to
+        get familiar with the basics of Python once again and reminded me of why I enjoy it
+        as a programming language.
+        <p>Getting a chance to assist students new to programming
+        forced me to relearn some of the inner workings of the language that are often
+        overlooked once a familiarty with it is formed.
+        </p>
+      </p>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-md-2'>
+      <img src="/img/UTM.jpg" class="img-responsive img-rounded" >
+    </div>
+    <div class='col-md-6'>
+      <h4>Facilitated Study Group Leader (Unpaid) (September 2014-April 2015)</h4>
+      <p>Responsible for leading study groups for MAT102, Mathematical Proofs
+      </p>
+      <p>
+  	Duties included:
+    <ul>
+    <li> Preparing relevant material for students to work on </li>
+    <li> Assist students with instilling the specific skills required for success in the course </li>
+    <li>	Communicating ideas and concepts in an effective manner.</li>
+  </ul>
+
+
+      </p>
+    </div>
+  </div>
+  </div>
+  <!--
+  <ul class="pager">
+    <li class="previous"><a ui-sref='aboutState'><<<</a></li>
+    <li class="next"><a ui-sref='projectState'>>>></a></li>
+  </ul>
+  -->
+
+  <div class="container-fluid section">
+    <a id="projects"></a>
+
+      <h3 class ="headings" >Projects</h3>
+
+      <div class="row">
+        <p>Source Code for the projects listed below, along with additional work,
+           can be found on my github linked below.</p>
+      </div>
+
+
+
+    <div class="row">
+      <h4>Web-based Twitter Application (jQuery/AJAX, PHP/PSQL)</h4>
+      <p>
+  	Worked in a team of two to create a Web Application which made use of the Twitter API
+  	. The site allowed users to sign up and managed user accounts in a secure fashion, making use of PHP/PSQL.
+    Once logged in, a user could generate word clouds using key-word searches.
+  	Data was received from the Twitter API, which was then processed in
+   the back-end and presented to the user on an AJAX based front end.</p>
+   </div>
+
+   <div class="row">
+     <h4>Web-based Multi-Player Game (Node, WebSockets, HTML5 Canvas, HTML5 Mobile)</h4>
+     <p>
+      Worked in a team of three to create a web-based multi-player game.
+      The game allowed players to use a mobile device as a controller
+      to send commands to a server, which then updated a shared game screen
+      Front end development done using HTML5 Canvas, HTML5 Mobile API, Javascript
+      Back end server managed using Node.js and WebSockets.
+      </p>
+  </div>
+
+  <div class="row">
+    <h4>Web-based Messaging Application (Openfire Server, XMPP)</h4>
+    <p>
+    	Worked in a team of two to create a web-based instant messaging client
+      which made use of XMPP. Backend was an Open Fire Unix server, which
+      allowed clients to connect via HTTP through our web client.
+
+
+     </p>
+  </div>
+
+  <div class="row">
+    <h4>Software Design, (Java, Scrum, JUnit Testing)</h4>
+    <p>
+  	Collaborated in a team of 4 to develop a Unix Shell and File System simulation.
+  	Main responsibility included working on assigned program modules in parallel
+    with dependent modules being implemented by the rest of the team.
+  	Collaborated through a SVN repository and workflow was managed through use of
+    Scrum.
+
+
+     </p>
+  </div>
+
+
+  </div>
+
+
+
+  <!--
+  <ul class="pager">
+    <li class="previous"><a ui-sref='workState'><<<</a></li>
+    <li class="next"><a ui-sref='educationState'>>>></a></li>
+  </ul>-->
+
+
+  <div class="container-fluid section-grey">
+    <a id="contact"></a>
+    <h3 class ="headings" >Contact</h3>
+      <p>
+    <i class="fa fa-envelope  fa-2x" aria-hidden="true"></i>
+    <a href='mailto:waleedkhan.khan@mail.utoronto.ca'>waleedkhan.khan@mail.utoronto.ca</a>
+      </p>
+    <p>
+    <i class="fa fa-phone  fa-2x" aria-hidden="true"></i>
+    <a href='tel:+16472015440'>647-201-5440</a>
+  </p>
+    <p>
+  <i class="fa fa-github fa-2x" aria-hidden="true">
+  <a href='https://github.com/WaleedAKhan/'></i>Github</a>
+    </p>
+  </div>
+
+
+
+</body>
+</html>
